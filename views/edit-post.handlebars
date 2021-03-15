@@ -14,16 +14,6 @@
       <textarea id="post-description" name="post-description">{{post.post_description}}</textarea>
     </div>
     <div>
-      {{!-- Comment added by you on {{format_date post.created_at}} --}}
-      {{!-- | <form class="comment-form">
-            <div>
-                <textarea name="comment-body"></textarea>
-            </div>
-
-            <div>
-                <button type="submit">add comment</button>
-            </div>
-        </form> --}}
         {{> comments post.comments}}
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>

@@ -21,6 +21,12 @@ a:hover {
   color: #3486eb;
 }
 
+p{
+  color:#225ca3;
+  font-weight: bold;
+  font-size: large;
+}
+
 button {
   background-color: #225ca3;
   border: 0;
