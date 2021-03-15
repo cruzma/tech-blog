@@ -33,4 +33,4 @@
   MIT
 
   ## Questions
-  @cruzma</br>
+  [@cruzma](https://github.com/cruzma)</br>
